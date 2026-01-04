@@ -1,0 +1,14 @@
+gre-framework/
+├── README.md # Nova documentação em inglês
+├── ARCHITECTURE.md # Documentação técnica da arquitetura
+├── examples/ # Exemplos de uso
+│ ├── task_manager/ # Seu app de tarefas como exemplo
+│ └── simple_crm/ # Outro exemplo (CRUD simples)
+├── lib/gre/
+│ ├── version.rb
+│ ├── application.rb # Core da framework
+│ ├── base_model.rb # ORM base
+│ ├── widget.rb # Widget base class
+│ └── stylesheet.rb # CSS engine
+├── gemspec # Transformar em gem!
+└── spec/ # Testes completos
